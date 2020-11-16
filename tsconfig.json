@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ion-custom-scrollbar": [
+        "dist/ion-custom-scrollbar/ion-custom-scrollbar",
+        "dist/ion-custom-scrollbar"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
